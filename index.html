@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!-- Crie um website com o tema "Tecnologia", do jeito que achar melhor. Utilize ao máximo todos os conhecimentos adquiridos durante o curso, como: HTML 5, CSS 3, JavaScript ECMAScript 6+, Bootstrap, Git e GitHub.
+
+Exigências:
+- O Website tem que estar responsivo.
+- O Website precisa ser hospedado e publicado no GitHub Pages.
+- Sempre ao final de cada aula, faça um commit do projeto.
+- Ao terminar, responda aqui com o link do seu repositório do GitHub e com o link do seu website publicado. -->
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Platforma edTech Cluster</title>
+		<!-- Nome do autor -->
+		<meta name="author" content="Leandro Leal Farias" />
+		<!-- Indexação de mecanismos de busca -->
+		<meta name="robots" content="index, follow" />
+		<meta
+			name="keywords"
+			content="educação, education, cursos, courses, edtech, html, javascript, css, plataforma, professor, front, front-end, back-end, full-stack, programação, desenvolvimento, developer, designer, UX, UI, user experience, user interface, web, codar, coding, developing"
+		/>
+		<meta
+			name="description"
+			content="Este website reúne plataformas de cursos de tecnologia disponíveis na internet, assim como canais do YouTube com conteúdos relacionados"
+		/>
+		<!-- CSS Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous">
+		<!-- CSS Cluster edTech -->
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link href="img/favicon.png" rel="shortcut icon" type="image/png">
+		<!-- <a href="https://www.flaticon.com/free-icons/hub" title="hub icons">Hub icons created by Kiranshastry - Flaticon</a> -->
+	</head>
+	<body>
+		<!-- Navbar -->
+		<header data-bs-theme="dark">
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<img
+							src="img/favicon.png"
+							alt="logo"
+							width="40"
+							height="40">
+					</a>
+					<a class="nav-link navbar-brand nav-underline"
+										aria-current="page"
+										href="#"
+										><h5>edTech Cluster</h5></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+								<li class="nav-item">
+									<a class="nav-link text-info" href="websites.html"><h5>Websites</h5></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-info" href="#"
+										><h5>Canais do YouTube</h5></a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-info" href="#"
+										><h5>Perfis do Instagram</h5></a
+									>
+								</li>
+							</h5>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Fim Navbar -->
+
+		<!-- Conteúdo principal da Página -->
+		<main>
+			<!-- Início do carousel -->
+			<div
+				id="myCarousel"
+				class="carousel slide mb-6"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#myCarousel"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#myCarousel"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#myCarousel"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<svg
+							class="bd-placeholder-img"
+							width="100%"
+							height="100%"
+							aria-hidden="true"
+							preserveAspectRatio="xMidYMid slice"
+							focusable="false"
+						>
+							<rect
+								width="100%"
+								height="100%"
+								fill="var(--bs-secondary-color)"
+							/>
+						</svg>
+						<div class="container">
+							<div class="carousel-caption text-start">
+								<h1>Websites de aprendizado em tecnologia</h1>
+								<p class="opacity-75">
+									<strong> ENCONTRE AQUI</strong> um conjunto de
+									websites selecionados especialmente para você que
+									quer aprender programação e outros assuntos de
+									tecnologia
+								</p>
+								<p>
+									<a class="btn btn-lg btn-primary" href="websites.html"
+										>Saiba mais</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<svg
+							class="bd-placeholder-img"
+							width="100%"
+							height="100%"
+							aria-hidden="true"
+							preserveAspectRatio="xMidYMid slice"
+							focusable="false"
+						>
+							<rect
+								width="100%"
+								height="100%"
+								fill="var(--bs-secondary-color)"
+							/>
+						</svg>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Canais do YouTube de aprendizado em tecnologia</h1>
+								<p>
+									<strong> ASSISTA AQUI</strong> um conjunto de canais
+									do YouTube selecionados especialmente para você que
+									quer aprender programação e outros assuntos de
+									tecnologia.
+								</p>
+								<p>
+									<a class="btn btn-lg btn-primary" href="#"
+										>Assista!</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<svg
+							class="bd-placeholder-img"
+							width="100%"
+							height="100%"
+							xmlns="http://www.w3.org/2000/svg"
+							aria-hidden="true"
+							preserveAspectRatio="xMidYMid slice"
+							focusable="false"
+						>
+							<rect
+								width="100%"
+								height="100%"
+								fill="var(--bs-secondary-color)">
+						</svg>
+						<div class="container">
+							<div class="carousel-caption text-end">
+								<h1>
+									Perfis do Instagram de aprendizado em Tecnologia
+								</h1>
+								<p>
+									<strong> CURTA AQUI</strong> um conjunto de perfis do
+									Instagram selecionados especialmente para você que
+									quer aprender programação e outros assuntos de
+									tecnologia.
+								</p>
+								<p>
+									<a class="btn btn-lg btn-primary" href="#">Curta!</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#myCarousel"
+					data-bs-slide="prev"
+				>
+					<span
+						class="carousel-control-prev-icon"
+						aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#myCarousel"
+					data-bs-slide="next"
+				>
+					<span
+						class="carousel-control-next-icon"
+						aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			<!-- Fim do carousel -->
+
+			<!-- START THE FEATURETTES -->
+
+			<hr class="featurette-divider" />
+
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading fw-normal lh-1">
+						Websites de aprendizado em Teconologia.
+						<span class="text-body-secondary"
+							>Qualidade de Alto nível.</span
+						>
+					</h2>
+					<p class="lead">
+						Fizemos uma seleção dos TOP 10 websites que disponibilizam
+						conteúdos excepcionais em Tecnologia.
+					</p>
+				</div>
+				<div class="col-md-5">
+					<img
+						src="img/website_featurette.jpg"
+						class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+						width="500"
+						height="500"
+						role="img"
+						aria-label="Websites"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false">
+
+					<rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
+				</div>
+			</div>
+
+			<hr class="featurette-divider" />
+
+			<div class="row featurette">
+				<div class="col-md-7 order-md-2">
+					<h2 class="featurette-heading fw-normal lh-1">
+						Canais do YouTube.
+						<span class="text-body-secondary">Assista agora.</span>
+					</h2>
+					<p class="lead">
+						YouTube é a plataforma web com mais conteúdos em Tecnologia da
+						Informação. Tem de tudo! Desenvolvimento de websites,
+						aplicativos, administração de banco de dados, análise de
+						dados, hardware...
+					</p>
+				</div>
+				<div class="col-md-5 order-md-1">
+					<img
+						src="img/youtube_featurette.jpg"
+						class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+						width="500"
+						height="500"
+						role="img"
+						aria-label="Canais do YouTube"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false">
+
+					<rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
+				</div>
+			</div>
+
+			<hr class="featurette-divider" />
+
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading fw-normal lh-1">
+						Perfis do Instagram.
+						<span class="text-body-secondary"
+							>Curta, salve e compartilhe.</span
+						>
+					</h2>
+					<p class="lead">
+						Há diversos perfis no Instagram com dicas rápidas e valorosas.
+						Uma solução, uma idéia inovadora ou até uma piada nerd pode
+						lhe trazer um aprendizado no seu dia-a-dia. Aproveite nossas
+						dicas de perfis!
+					</p>
+				</div>
+				<div class="col-md-5">
+					<img
+						src="img/instagram_featurette.jpg"
+						class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+						width="500"
+						height="500"
+						role="img"
+						aria-label="Perfis do Instagram"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false">
+
+					<rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
+				</div>
+			</div>
+
+			<hr class="featurette-divider" />
+
+			<!-- /END THE FEATURETTES -->
+
+			<!-- Fim do conteúdo principal -->
+			<footer class="container">
+				<p class="float-end"><a href="#">Back to top</a></p>
+				<p>
+					&copy; 2023 Leandro Leal Farias &middot;
+					<a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+				</p>
+			</footer>
+		</main>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
