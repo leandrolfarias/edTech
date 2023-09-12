@@ -82,11 +82,11 @@
   
   /* Carousel base class */
   .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
-    bottom: 3rem;
+    bottom: 2rem;
     z-index: 10;
   }
   
@@ -99,13 +99,17 @@
 ------------------------- */
 
 .featurette-divider {
-    margin: 5rem 0; /* espaçamento maior do Bootstrap <hr> */
+    margin: 4rem 0; /* espaçamento maior do Bootstrap <hr> */
   }
   
-  .featurette-heading {
+.featurette-heading {
     letter-spacing: -.05rem;
   }
-  
+
+.featurette {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 
   
   /* RESPONSIVIDADE
@@ -122,10 +126,16 @@
     .featurette-heading {
       font-size: 50px;
     }
+    .featurette {
+      padding-left: 0.1rem;
+    }
   }
   
   @media (min-width: 62em) {
     .featurette-heading {
       margin-top: 7rem;
+    }
+    .featurette {
+      padding-left: 0.1rem;
     }
   }
