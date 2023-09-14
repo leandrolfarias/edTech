@@ -1,11 +1,6 @@
 <!DOCTYPE html>
-<!-- Crie um website com o tema "Tecnologia", do jeito que achar melhor. Utilize ao máximo todos os conhecimentos adquiridos durante o curso, como: HTML 5, CSS 3, JavaScript ECMAScript 6+, Bootstrap, Git e GitHub.
-
-Exigências:
-- O Website tem que estar responsivo.
-- O Website precisa ser hospedado e publicado no GitHub Pages.
-- Sempre ao final de cada aula, faça um commit do projeto.
-- Ao terminar, responda aqui com o link do seu repositório do GitHub e com o link do seu website publicado. -->
+<!-- Projeto final do Curso de Front-End: Website com o tema "Tecnologia", do jeito que achar melhor. Utilize ao máximo todos os conhecimentos adquiridos durante o curso, como: HTML 5, CSS 3, JavaScript ECMAScript 6+, Bootstrap, Git e GitHub.
+-->
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8" />
@@ -77,6 +72,25 @@ Exigências:
 			</nav>
 		</header>
 		<!-- Fim Navbar -->
+
+		<!-- Modal Sair -->
+		<div class="modal" id="modalSair" style="display: none;">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title">Plataforma edTech</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+				  <p>Você realmente deseja sair?</p>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" id="simBtn" class="btn btn-secondary" data-bs-dismiss="modal">Sim</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<!-- Fim Modal Sair -->
 
 		<!-- Conteúdo principal da Página -->
 		<main>
@@ -345,5 +359,6 @@ Exigências:
 			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
 			crossorigin="anonymous"
 		></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
